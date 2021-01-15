@@ -149,13 +149,13 @@ footer nav a {
     margin: 20px 0;
 }
 
-#navContainer {
+.navContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#navContainer nav{
+.navContainer nav{
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
@@ -201,4 +201,44 @@ footer nav a {
 }
 #box10 {
     background-color: dodgerblue;
+}
+
+#aboutSection {
+    padding: 0 20px 20px 20px; 
+    border-bottom: 1px dashed black;
+}
+
+#cardsContainer  {
+    padding: 0 20px 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#cardsContainer img {
+    margin: 20px 0 10px 0;
+}
+
+#cardsContainer a {
+    margin: 20px 0;
+    display: flex;
+    border: 2px solid black;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#cardsContainer div {
+    width: 370px;
+    margin: 10px 0px;
+    border-bottom: 1px dashed black;
+}
+
+#togetherSection {
+    padding: 0 20px 40px 20px;
 }
