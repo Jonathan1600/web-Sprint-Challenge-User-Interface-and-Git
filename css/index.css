@@ -144,3 +144,101 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container img {
+    margin: 20px 0;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navContainer nav{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navLink {
+    height: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo; 
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+#aboutSection {
+    padding: 0 20px 20px 20px; 
+    border-bottom: 1px dashed black;
+}
+
+#cardsContainer  {
+    padding: 0 20px 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#cardsContainer img {
+    margin: 20px 0 10px 0;
+}
+
+#cardsContainer a {
+    margin: 20px 0;
+    display: flex;
+    border: 2px solid black;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#cardsContainer div {
+    width: 370px;
+    margin: 10px 0px;
+    border-bottom: 1px dashed black;
+}
+
+#togetherSection {
+    padding: 0 20px 40px 20px;
+}
